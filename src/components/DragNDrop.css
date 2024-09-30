@@ -2,11 +2,13 @@
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+    color: white;
 }
 
 .container{
     height: 300px;
     width: 500px;
+    background-color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
