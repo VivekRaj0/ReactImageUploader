@@ -5,8 +5,8 @@
 }
 
 .container{
-    height: 500px;
-    width: 600px;
+    height: 300px;
+    width: 500px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -21,6 +21,12 @@
     margin: 10px;
 }
 
+.container img{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+}
+
 .container span:hover{
     text-decoration: underline;
 }
@@ -30,10 +36,17 @@ input{
 }
 
 .select{
+    margin: 10px;
+    height:40px;
+    background-color: white;
+    color:rgb(255, 0, 0);
+    border-radius: 5px;
+    border-color: red;
+    width: 80px;
     cursor:pointer;
 }
 
-button{
+.bottom button{
     margin-top:20px;
     height:30px;
     width:100%;

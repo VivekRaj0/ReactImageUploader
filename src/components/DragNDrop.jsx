@@ -7,16 +7,18 @@ function DragNDrop() {
   return (
     <div className="wrapper">
       <div className="heading">
-        <h1>Drag and Drop Image Here !!!</h1>
+        <h1>Upload Your Image Here !!!</h1>
       </div>
       <div className="container">
-        <p>Drag and Drop Your Image here!!!</p>
-        <span role="button" className="select" onClick={handleClick}>
+        <img src="images.png" alt="file-upload-icon" />
+        <p>Drag and Drop Your Image here...</p>
+        or
+        <button className="select" onClick={handleClick}>
           Browse
-        </span>
+        </button>
         <input type="file" multiple />
       </div>
-      <div>
+      <div className="bottom">
         <button>Upload</button>
       </div>
     </div>
