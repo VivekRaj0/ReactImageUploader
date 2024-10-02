@@ -1,33 +1,32 @@
-import './Header.css'
+import "./Header.css";
 
 function Header() {
   return (
     <div className="navbar">
       <div className="navbar-left">
-        <a href="/" className="logo">
-          ShopNow
-        </a>
+        <a className="logo" href="/">Logo.</a>
       </div>
       <div className="navbar-center">
-        <ul className="nav-links">
-          <li>
-            <a href="/">Products</a>
+        <ul className="menu">
+          <li className="home">
+            <a href="/">Home</a>
           </li>
-          <li>
-            <a href="/">About Us</a>
+          <li className="about">
+            <a>About</a>
           </li>
-          <li>
-            <a href="/">Contact</a>
+          <li className="contact">
+            <a>Contact</a>
           </li>
         </ul>
       </div>
       <div className="navbar-right">
-        <ul>
-          <li>
-            <a href="/" className="cart-icon">
-              <span className="cart-count">Login/SignUp</span>
-            </a>
-          </li>
+        <ul className="auth">
+            <li>
+                 <a href="/">SignUp</a>
+            </li>
+            <li>
+                 <a href="/">Login</a>
+            </li>
         </ul>
       </div>
     </div>
